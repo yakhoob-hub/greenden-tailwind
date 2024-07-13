@@ -6,6 +6,19 @@
     <title>Greenden</title>
     <!--Tailwind CSS CDN LINK-->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 
 </head>
 <body>
@@ -23,14 +36,14 @@
         
         <ul class="flex gap-5 text-gray-600 hidden md:flex">
             <li>
-                <a class="hover:underline hover:text-black" href="#">Home</a>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
             </li>
 
             <li>
-                <a class="hover:underline hover:text-black" href="#">Products</a>
+                <a class="hover:underline hover:text-black" href="products.html">Products</a>
             </li>
             <li>
-                <a class="hover:underline hover:text-black" href="#">Contact</a>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
             </li>
         </ul>
 
